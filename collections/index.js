@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
-const url = 'mongodb://oc:open@ds151153.mlab.com:51153/oc';
+// const url = 'mongodb://oc:open@ds151153.mlab.com:51153/oc';
+const url = 'mongodb://127.0.0.1:27017/open';
 
 mongoose.connect(url);
 
